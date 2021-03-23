@@ -1,16 +1,16 @@
 package com.comumunity.fei.dto;
 
 public class GithubUser {
-    private String nane;
+    private String name;
     private Long id;
     private String bio;
 
-    public String getNane() {
-        return nane;
+    public String getName() {
+        return name;
     }
 
-    public void setNane(String nane) {
-        this.nane = nane;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Long getId() {
